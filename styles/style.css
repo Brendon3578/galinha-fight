@@ -82,3 +82,11 @@ img.vencedor {
 img.perdedor {
   filter: grayscale(100%);
 }
+
+.result {
+  font-size: 14px;
+  font-weight: normal;
+}
+.result a {
+  font-weight: bold;
+}

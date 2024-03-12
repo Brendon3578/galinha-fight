@@ -105,6 +105,9 @@ function apostar(escolha) {
     message += "<br> Você perdeu a sua aposta 😪";
   }
 
+  message +=
+    "<br><br> <p class='result'>Quer tentar outra aposta? <a onclick='window.location.reload()' href='#'>Clique aqui</a></p>";
+
   resultTextEl.innerHTML = `<br> ${message}`;
   makeButtonsDisabled(false);
 }
